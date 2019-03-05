@@ -13,7 +13,7 @@ public class Alice {
                 " 'and what is the use of a book,' thought Alice 'without pictures or conversation?'";
 
         in = new Scanner(System.in);
-        System.out.println("What world do you want to search for in the sentence?");
+        System.out.println("What word do you want to search for in the sentence?");
         term = in.next();
 
         sentence = sentence.toLowerCase();
