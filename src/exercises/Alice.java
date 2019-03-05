@@ -16,7 +16,6 @@ public class Alice {
         System.out.println("What word do you want to search for in the sentence?");
         term = in.next();
 
-        sentence = sentence.toLowerCase();
-        System.out.println(sentence.contains(term));
+        System.out.println(sentence.toLowerCase().contains(term));
     }
 }
